@@ -14,15 +14,15 @@ Version.Major,1
 Version.Minor,1
 Version.Patch,1
 Created,2021-03-29T18:23:30
-Modified,2021-03-30T03:24:23
+Modified,2021-04-05T22:08:10
 Giturl,https://github.com/sandiegodata-projects/sandiegohungercoalition-collection.git
-
+""
 Section,Contacts,Email,Organization,Url
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
-
+""
 Section,Documentation,Title,Description,
 Documentation,file:README.md,README,,
-
+""
 Section,References,Name,Description,
 Reference,file:data/frpm_2014-2015.csv#&encoding=ascii,frpm_2014_2015,,
 Reference,file:data/frpm_2015-2016.csv#&encoding=ascii,frpm_2015_2016,,
@@ -34,7 +34,7 @@ Reference,file:data/a_meals_cacfp_new.csv#&encoding=ascii,a_meals_cacfp_new,,
 Reference,file:data/a_meals_cacfp_site.csv#&encoding=utf8,a_meals_cacfp_site,,
 Reference,file:data/SD Summer Meal Sites addresses.csv#&encoding=latin1,summer_sites_2015_2016,,
 Reference,file:data/SD CACFP Sites addresses.csv#&encoding=utf8,cacfp_Sites_addresses,,
-
+""
 Section,Resources,Name,Description,,,
 Datafile,file:data/ID 209 San Diego CACFP Meals Served 2016_Aug-Sept.csv#&encoding=ascii,cacfp_Meals_Served_2016_Aug_Sept,,,,
 Datafile,file:data/ID.156_2016-11-2_CACFP Sponsor Level Meals 2014.csv#&encoding=ascii,cacfp_Sponsor_Level_Meals_2014,,,,
@@ -45,14 +45,6 @@ Datafile,file:data/cacfp_all_siteid_sponsid.csv#&encoding=utf8,cacfp_all_siteid_
 Datafile,file:data/calpads_school_level_1718.csv#&encoding=utf8,calpads_school_level_1718,,,,
 Datafile,file:data/CEP_17_18.xls#&encoding=ascii,CEP_17_18,,,,
 Datafile,file:data/CEP_19_20.xlsx#&encoding=ascii,CEP_19_20,,,,
-Datafile,file:data/nslp_2014.csv#&encoding=ascii,nslp_2014,,,,
-Datafile,file:data/nslp_2015.csv#&encoding=ascii,nslp_2015,,,,
-Datafile,file:data/nslp_2016.csv#&encoding=ascii,nslp_2016,,,,
-Datafile,file:data/nslp_2017.csv#&encoding=ascii,nslp_2017,,,,
-Datafile,file:data/nslp_2018.csv#&encoding=latin1,nslp_2018,,,,
-Datafile,file:data/nslp_2018_oct.csv#&encoding=ascii,nslp_2018_oct,,,,
-Datafile,file:data/nslp_all_siteid_sponsid.csv#&encoding=utf8,nslp_all_siteid_sponsid,,,,
-Datafile,file:data/nslp_bfast2_with_id.csv#&encoding=ascii,nslp_bfast2_with_id,,,,
 Datafile,file:data/San Diego - SFSP Data_2013-2014.csv#&encoding=ascii,sfsp_2013_2014,,,,
 Datafile,file:data/sfsp_2014-16.csv#&encoding=ascii,sfsp_2014_16,,,,
 Datafile,file:data/San Diego - SFSP Data_2014-2015.csv#&encoding=ascii,sfsp_2014_2015,,,,
@@ -80,7 +72,7 @@ Datafile,file:data/more_sites.csv#&encoding=ascii,more_sites,,,,
 Datafile,file:data/more_sponsors.csv#&encoding=utf8,more_sponsors,,,,
 Datafile,file:data/new_dim_site.csv#&encoding=ascii,new_dim_site,,,,
 Datafile,file:data/new_dim_sponsor.csv#&encoding=ascii,new_dim_sponsor,,,,
-
+""
 Section,Schema,DataType,AltName,Description,Has_Codes
 Table,a_meals_cacfp_new,,,,
 Table.Column,sponsor_id,integer,,,
